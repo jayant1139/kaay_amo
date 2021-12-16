@@ -48,12 +48,7 @@ export default function Home() {
                 </Link>
               </li>
                <li>
-              {/* <Link
-                  href="/Coursecatalog"
-                  style={({ isActive }) =>  isActive? {color: "#fff",background: "#22577A",borderRadius:"0.2rem",fontWeight:"normal"}: { color: "black", background: "" } }
-                >
-                  Course Catalog
-                </Link> */}
+             
               </li>
             </ul>
           </div>
