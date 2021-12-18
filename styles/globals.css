@@ -1,16 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Nunito&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Comic Neue', cursive;
+  /* font-family: 'Nunito', sans-serif; */
 }
 
 a {
-  color: inherit;
+  color: rgb(14, 12, 12) !important;
+  
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+.dropdown-toggle::after{
+  color: #E1701A !important;
+  /* margin-top: 0.1rem !important; */
+}
+.navbar{
+  background-color: rgba(255, 255, 255, 0.699) !important;
+  /* border-bottom: 0.1rem solid rgb(199, 199, 199); */
+}
+.navbar a{
+  font-weight: 500 !important;
+}
+.navbar-toggler{
+  /* background-color: aqua; */
+  border: none;
+}
+.signin-btn{
+  border: none;
+  padding: 0.4rem;
+  background-color: #fff;
+  border-radius: 9rem 9rem 5rem 5rem;
+}
+.signup-btn{
+  padding:0.35rem 0.5rem;
+  border: none;
+  background-color: #E1701A;
+  border-radius: 9rem 9rem 5rem 5rem;
+color: #fff;  
+}
+.signup-btn:hover{
+  color: #fff;
+  background-color: #e1701ac5;
+}
+.signup-btn:active:focus{
+  border-color: brown !important;
+  box-shadow: none !important;
+  /* background-color: brown; */
+}
+.banner-h1{
+  color: #FBD148;
+  font-weight: 800;
+  text-align: center;
+  margin: 1rem;
 }
